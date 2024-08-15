@@ -1,0 +1,38 @@
+namespace NetForemost.Core.Enumerations.Companies
+{
+    public enum WorkOutsideShiftPerDayLongerThanEnum
+    {
+        NA,
+        OneHour,
+        OneHourAndHalf,
+        TwoHours,
+        TwoHoursAndHalf,
+        ThreeHours,
+        ThreeHoursAndHalf,
+        FourHours,
+        FourHoursAndHalf,
+        FiveHours,
+        FiveHoursAndHalf,
+        SixHours,
+        SixHoursAndHalf,
+        SevenHours,
+        SevenHoursAndHalf,
+        EightHours,
+        EightHoursAndHalf,
+        NineHours,
+        NineHoursAndHalf,
+        TenHours,
+        TenHoursAndHalf,
+        ElevenHours,
+        ElevenHoursAndHalf,
+        TwelveHours,
+        TwelveHoursAndHalf,
+        ThirteenHours,
+        ThirteenHoursAndHalf,
+        FourteenHours,
+        FourteenHoursAndHalf,
+        FifteenHours,
+        FifteenHoursAndHalf,
+        SixteenHours
+    }
+}

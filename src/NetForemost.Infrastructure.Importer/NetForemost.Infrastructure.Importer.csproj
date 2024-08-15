@@ -1,0 +1,130 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;8601;8600;8618;</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;8601;8600;8618;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\app_clients.csv" />
+    <None Remove="Resources\authorization_roles.csv" />
+    <None Remove="Resources\authorization_roles_translations.csv" />
+    <None Remove="Resources\benefits.csv" />
+    <None Remove="Resources\cities.csv" />
+    <None Remove="Resources\contract_types.csv" />
+    <None Remove="Resources\countries.csv" />
+    <None Remove="Resources\country.csv" />
+    <None Remove="Resources\goal_status.csv" />
+    <None Remove="Resources\goal_status_category.csv" />
+    <None Remove="Resources\industries.csv" />
+    <None Remove="Resources\job_roles.csv" />
+    <None Remove="Resources\job_role_categories.csv" />
+    <None Remove="Resources\job_role_category_skills.csv" />
+    <None Remove="Resources\languages.csv" />
+    <None Remove="Resources\policies.csv" />
+    <None Remove="Resources\language_levels.csv" />
+    <None Remove="Resources\prioritylevels.csv" />
+    <None Remove="Resources\priority_level_translation.csv" />
+    <None Remove="Resources\seniorities.csv" />
+    <None Remove="Resources\seniority.csv" />
+    <None Remove="Resources\skills.csv" />
+    <None Remove="Resources\storypoints.csv" />
+    <None Remove="Resources\time_zones.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\authorization_roles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\authorization_roles_translations.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\benefits.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\goal_status.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\goal_status_category.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\job_role_category_skills.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\languages.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\cities.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\countries.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\policies.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\language_levels.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\contract_types.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\priority_level_translation.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\seniorities.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\prioritylevels.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\storypoints.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\skills.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\app_clients.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\time_zones.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\job_roles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\job_role_categories.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetForemost.Core\NetForemost.Core.csproj" />
+    <ProjectReference Include="..\NetForemost.SharedKernel\NetForemost.SharedKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\industries.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

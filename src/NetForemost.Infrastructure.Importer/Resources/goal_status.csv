@@ -1,0 +1,4 @@
+"Id","Name","Description","StatusCategoryId","CompanyId","IsFinalStatus"
+1,In Progress,The goal is in Progress,2,18,false
+2,Completed,The goal was done,3,18,true
+3,Canceled,The goal was canceled,3,18,false

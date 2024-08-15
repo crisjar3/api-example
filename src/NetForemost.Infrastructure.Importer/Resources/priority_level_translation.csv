@@ -1,0 +1,11 @@
+Id,Level,Description,LanguageId,PriorityLevelId
+1,Lowest,Trivial problem with little or no impact on progress,1,1
+2,Low,Minor problem or easily worked around,1,2
+3,Medium,Has the potential to affect progress,1,3
+4,High,Serious problem that could block progress,1,4
+5,Highest,The problem will block progress,1,5
+6,Muy Bajo,Problema trivial con poco o ningún impacto en el progreso,2,1
+7,Bajo,Problema menor o fácil de solucionar,2,2
+8,Intermedio,Tiene el potencial de afectar el progreso,2,3
+9,Alto,Problema grave que podría bloquear el progreso,2,4
+10,Muy Alto,El problema bloqueará el progreso,2,5

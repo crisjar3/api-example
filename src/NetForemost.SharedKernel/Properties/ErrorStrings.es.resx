@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IncorrectCurrentPassword" xml:space="preserve">
+    <value>Incorrect current password</value>
+  </data>
+  <data name="Result_EmailNotAvailable" xml:space="preserve">
+    <value>Este correo electrónico no está disponible, inténtalo de nuevo.</value>
+  </data>
+  <data name="Result_EmailNotFound" xml:space="preserve">
+    <value>Este correo no está asociado a ninguna cuenta de NetForemost</value>
+  </data>
+  <data name="Result_EntityNotFound" xml:space="preserve">
+    <value>No se encuentra la entidad [EntityValue] con id [IdValue].</value>
+  </data>
+  <data name="FailedLogin" xml:space="preserve">
+    <value>Nombre de usuario o contraseña incorrecta</value>
+  </data>
+  <data name="Result_GenericCompletedSecurityProcess_Error" xml:space="preserve">
+    <value>¡Gracias por usar nuestros servicios!</value>
+  </data>
+  <data name="Result_GenericError" xml:space="preserve">
+    <value>Lo sentimos, se ha producido un error, inténtelo de nuevo más tarde.</value>
+  </data>
+  <data name="Result_GenericSecurity_Error" xml:space="preserve">
+    <value>Lo sentimos, algo salió mal cuando [Value].</value>
+  </data>
+  <data name="Result_PasswordRules" xml:space="preserve">
+    <value>Las contraseñas deben tener al menos 6 caracteres, al menos un carácter no alfanumérico, al menos un dígito ('0'-'9') y tambien tener al menos una letra mayúscula ('A'- 'Z').</value>
+  </data>
+  <data name="Result_ReConfirmAccount" xml:space="preserve">
+    <value>Su cuenta  sido verificado no ha sido verificado por favor confirme su cuenta primero.</value>
+  </data>
+  <data name="Result_ReOpenFromEmail_Error" xml:space="preserve">
+    <value>Por favor, vuelva a abrir el enlace de su correo electrónico.</value>
+  </data>
+  <data name="Result_RequestExpired_Error" xml:space="preserve">
+    <value>Su solicitud de [Value] ha caducado, solicite el [Value] nuevamente.</value>
+  </data>
+  <data name="Result_UsernameNotAvalaible" xml:space="preserve">
+    <value>Este nombre de usuario no está disponible, inténtalo de nuevo.</value>
+  </data>
+  <data name="Result_VerifiedAccount" xml:space="preserve">
+    <value>Su cuenta ya ha sido verificada anteriormente</value>
+  </data>
+  <data name="TimeZoneNotExist" xml:space="preserve">
+    <value>La zona horaria enviada no existe</value>
+  </data>
+  <data name="UserNotExist" xml:space="preserve">
+    <value>El usuario enviado no existe</value>
+  </data>
+  <data name="UserSettingsExisting" xml:space="preserve">
+    <value>Este usuario ya tiene una configuración creada anteriormente.</value>
+  </data>
+  <data name="UserSettingsNotExist" xml:space="preserve">
+    <value>La configuración no existe.</value>
+  </data>
+  <data name="Validation_InvalidToken_Error" xml:space="preserve">
+    <value>Token inválido</value>
+  </data>
+  <data name="Validation_InvalidToken_UserError" xml:space="preserve">
+    <value>El nombre de usuario pertenece al token enviado.</value>
+  </data>
+  <data name="LockedAccount" xml:space="preserve">
+    <value>Su cuenta está bloqueada debido a demasiados intentos fallidos. Inténtelo de nuevo despues de las [LockedTimeEnd]</value>
+  </data>
+  <data name="SuspendedUser" xml:space="preserve">
+    <value>Su cuenta fue suspendida indeterminadamente</value>
+  </data>
+  <data name="UserAlreadyHaveCompany" xml:space="preserve">
+    <value>Ya hay una empresa creada para esta cuenta, sólo se permite una empresa por cuenta</value>
+  </data>
+  <data name="User_NotFound" xml:space="preserve">
+    <value>no se ha encontrado el usuario especificado</value>
+  </data>
+  <data name="CompanySettingsNotFound" xml:space="preserve">
+    <value>La compañía no tiene una configuraciones creadas</value>
+  </data>
+  <data name="CityNotFound" xml:space="preserve">
+    <value>La ciudad enviada no se encontro.</value>
+  </data>
+  <data name="OneSettingsForCompany" xml:space="preserve">
+    <value>Ya existe una configuración creada para esta empresa.</value>
+  </data>
+  <data name="CompanyNotRegistered" xml:space="preserve">
+    <value>No tiene una compañía registrada</value>
+  </data>
+  <data name="UserHasNotCompany" xml:space="preserve">
+    <value>Este usuario no tiene una empresa creada</value>
+  </data>
+  <data name="CountryNotFound" xml:space="preserve">
+    <value>El pais enviado no se encontro.</value>
+  </data>
+  <data name="CompanyNotFound" xml:space="preserve">
+    <value>La compañia enviada no se encontro.</value>
+  </data>
+  <data name="BenefitIdNotFound" xml:space="preserve">
+    <value>El beneficio enviado [id] no se encontro.</value>
+  </data>
+  <data name="JobRoleIdNotFound" xml:space="preserve">
+    <value>El rol de trabajo enviado [id] no se encontro.</value>
+  </data>
+  <data name="SeniorityIdNotFound" xml:space="preserve">
+    <value>El seniority enviado [id] no se encontro.</value>
+  </data>
+  <data name="SkillIdNotFound" xml:space="preserve">
+    <value>El skill enviado [id] no se encontro.</value>
+  </data>
+  <data name="RoleNotFound" xml:space="preserve">
+    <value>El rol enviado [id] no se encontro.</value>
+  </data>
+  <data name="TalentExistsInTheCompany" xml:space="preserve">
+    <value>Este talento ya forma parte del equipo</value>
+  </data>
+  <data name="UserDoesNotBelongToTheCompany" xml:space="preserve">
+    <value>Lo siento no perteneces a la compañía especificada.</value>
+  </data>
+  <data name="UserNotAvailableToAddInTeam" xml:space="preserve">
+    <value>Usuario no disponible para agregar en el equipo</value>
+  </data>
+  <data name="JobRoleCategoryDuplicated" xml:space="preserve">
+    <value>ya existe una categoria del rol de trabajo con el nombre [name]</value>
+  </data>
+  <data name="JobRoleCategoryNotFound" xml:space="preserve">
+    <value>La categoría de rol de trabajo enviada [id] no se encuentra</value>
+  </data>
+  <data name="JobRoleDuplicated" xml:space="preserve">
+    <value>ya existe un rol de trabajo con el nombre [name]</value>
+  </data>
+  <data name="ApikeyInvalidFormat" xml:space="preserve">
+    <value>la clave api enviada tenía un formato no válido</value>
+  </data>
+  <data name="ApiKeyNotFound" xml:space="preserve">
+    <value>no se encuentra la clave api enviada</value>
+  </data>
+  <data name="ConvertStringToIntList" xml:space="preserve">
+    <value>No se pudo convertir la cadena [value] en una lista int</value>
+  </data>
+  <data name="ProjectDatesIncorrect" xml:space="preserve">
+    <value>la fecha final debe ser mayor que la fecha de inicio.</value>
+  </data>
+  <data name="ProjectNotFound" xml:space="preserve">
+    <value>El proyecto con el ID: [id] no se encontro.</value>
+  </data>
+  <data name="ProjectNameDuplicated" xml:space="preserve">
+    <value>ya existe registro un proyecto con el nombre : "[name]"</value>
+  </data>
+  <data name="ProjectNotOwnedTheCompany" xml:space="preserve">
+    <value>el proyecto especificado no pertenece a la empresa</value>
+  </data>
+  <data name="CompanyUserNotFound" xml:space="preserve">
+    <value>El usuario de compañia no existe</value>
+  </data>
+  <data name="CompanyUserWithIdNotFound" xml:space="preserve">
+    <value>El usuario de compañia con el ID: [id] no existe.</value>
+  </data>
+  <data name="ProjectCompanyUserDuplicated" xml:space="preserve">
+    <value>Ya existe un registro con el usuario de compañia especificado.</value>
+  </data>
+  <data name="ProjectCompanyUserDuplicatedWithId" xml:space="preserve">
+    <value>Ya existe un registro con el usuario de compañia especificado con el ID: [id].</value>
+  </data>
+  <data name="ProjectCompanyUserNotFoundWithId" xml:space="preserve">
+    <value>El usuario de la compañía no fue encontrado con el ID especificado: [id].</value>
+  </data>
+  <data name="IndustryNotExist" xml:space="preserve">
+    <value>La industria enviada no existe</value>
+  </data>
+  <data name="JobOfferNotExist" xml:space="preserve">
+    <value>La oferta de trabajo enviada no se encuentra</value>
+  </data>
+  <data name="LanguageLevelNotFound" xml:space="preserve">
+    <value>El nivel de lenguaje enviado [id] no se encontro.</value>
+  </data>
+  <data name="LanguageNotFound" xml:space="preserve">
+    <value>El lenguaje enviado [id] no se encontro.</value>
+  </data>
+  <data name="FormatLanguagesIsNotValid" xml:space="preserve">
+    <value>La cadena de texto enviada no sigue el patron correcto "1:2,1:3"</value>
+  </data>
+  <data name="ImageFileEmpty" xml:space="preserve">
+    <value>El archivo de imagen se encuentra vacio</value>
+  </data>
+  <data name="EstimatedHourNotValid" xml:space="preserve">
+    <value>Las horas estimadas deben ser mayor a cero</value>
+  </data>
+  <data name="GoalStatus_NotFound" xml:space="preserve">
+    <value>No se ha encontrado el goal status especificado</value>
+  </data>
+  <data name="InavlidOrderBlockTimeTracking" xml:space="preserve">
+    <value>El orden de los bloques especificados no es el correcto, deben ser secuencial.</value>
+  </data>
+  <data name="TaskNotOwnToUser" xml:space="preserve">
+    <value>Las tareas especificadas no pertecen al usuario.</value>
+  </data>
+  <data name="EstimatedHoursExceedMaximunGoalTime" xml:space="preserve">
+    <value>Las horas estimadas exceden el total de horas que contiene el rango de fechas de la meta.</value>
+  </data>
+  <data name="PriorityLevelNotFound" xml:space="preserve">
+    <value>El nivel prioridad especificado no se encontró.</value>
+  </data>
+  <data name="StoryPointNotFound" xml:space="preserve">
+    <value>El punto de historia specificado no se encontró.</value>
+  </data>
+  <data name="BlockTimeTrackingNotExist" xml:space="preserve">
+    <value>El bloque de seguimiento no existe.</value>
+  </data>
+  <data name="DailyTrackingHasAlreadyCreated" xml:space="preserve">
+    <value>El seguimiento diario ya se ha creado.</value>
+  </data>
+  <data name="DailyTrackingNotExist" xml:space="preserve">
+    <value>El seguimiento diario especificado no existe.</value>
+  </data>
+  <data name="UserNotBelongToProject" xml:space="preserve">
+    <value>El Usuario no pertenece a este proyecto</value>
+  </data>
+  <data name="ScrumNotBelongToProject" xml:space="preserve">
+    <value>El ScrumMaster no participa en este proyecto.</value>
+  </data>
+  <data name="EndDateIsInvalid" xml:space="preserve">
+    <value>La fecha de inicio es mayor o igual que la fecha final</value>
+  </data>
+  <data name="TimeStartIsGreaterThanTimeEnd" xml:space="preserve">
+    <value>El tiempo de inicio es mayor que el tiempo final.</value>
+  </data>
+  <data name="TimeBlockNotBelongToDailyEntry" xml:space="preserve">
+    <value>El Bloque de tiempo no pertenece a la misma fecha que el dailyentry</value>
+  </data>
+  <data name="TimeStartIsMinorOfLastTimeEnd" xml:space="preserve">
+    <value>El tiempo de inicio del nuevo bloque de tiempo es menor que el tiempo final de bloque pasado</value>
+  </data>
+  <data name="PatchEmptyPropsError" xml:space="preserve">
+    <value>Todas las propiedades deben contener un valor. Las siguientes propiedades fueron enviadas vacias o NULL: [emptyProps]</value>
+  </data>
+  <data name="RegisterAlreadyArchived" xml:space="preserve">
+    <value>El registro que estas intentando archivar, ya fue archivado previamente.</value>
+  </data>
+  <data name="RegisterAlreadyUnarchived" xml:space="preserve">
+    <value>El registro que estas intentando desarchivar, ya fue desarchivado previamente.</value>
+  </data>
+  <data name="EmptyProvidedList" xml:space="preserve">
+    <value>La lista de IDs no puede estar vacía.</value>
+  </data>
+  <data name="TaskTypeNotFound" xml:space="preserve">
+    <value>Las categorias de tareas con IDs: [id] no fueron encontradas.</value>
+  </data>
+  <data name="ProjectAvatarNotFound" xml:space="preserve">
+    <value>El avatar del proyecto con ID: [id] no se encontró.</value>
+  </data>
+  <data name="ProjectAccesibleByEveryoneNotFound" xml:space="preserve">
+    <value>No se encontró ningún proyecto accesible por todos.</value>
+  </data>
+  <data name="EmailExistsInTheCompany" xml:space="preserve">
+    <value>Ya hay un usuario con este email perteneciente a esta compañia</value>
+  </data>
+  <data name="InvitationNotSent" xml:space="preserve">
+    <value>La invitacion no pudo enviarse</value>
+  </data>
+  <data name="ProjectNotBelongToCompany" xml:space="preserve">
+    <value>El proyecto [Name] , no existe o no pertenece a la compañia</value>
+  </data>
+</root>

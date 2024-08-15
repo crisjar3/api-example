@@ -1,0 +1,420 @@
+Id,IsoCode,Name,CountryId
+1,CA-AB,Alberta,1
+2,CA-BC,British Columbia,1
+3,CA-MB,Manitoba,1
+4,CA-NB,New Brunswick,1
+5,CA-NL,Newfoundland and Labrador,1
+6,CA-NT,Northwest Territories,1
+7,CA-YT,Yukon,1
+8,CA-NS,Nova Scotia,1
+9,CA-NU,Nunavut,1
+10,CA-ON,Ontario,1
+11,CA-PE,Prince Edward Island,1
+12,CA-QC,Quebec,1
+13,CA-SK,Saskatchewan,1
+14,US-AL,Alabama,2
+15,US-AK,Alaska,2
+16,US-AZ,Arizona,2
+17,US-AR,Arkansas,2
+18,US-CA,California,2
+19,US-CO,Colorado,2
+20,US-CT,Connecticut,2
+21,US-DE,Delaware,2
+22,US-FL,Florida,2
+23,US-GA,Georgia,2
+24,US-HI,Hawaii,2
+25,US-ID,Idaho,2
+26,US-IL,Illinois,2
+27,US-IN,Indiana,2
+28,US-IA,Iowa,2
+29,US-KS,Kansas,2
+30,US-KY,Kentucky,2
+31,US-LA,Louisiana,2
+32,US-ME,Maine,2
+33,US-MD,Maryland,2
+34,US-MA,Massachusetts,2
+35,US-MI,Michigan,2
+36,US-MN,Minnesota,2
+37,US-MS,Mississippi,2
+38,US-MO,Missouri,2
+39,US-MT,Montana,2
+40,US-NE,Nebraska,2
+41,US-NV,Nevada,2
+42,US-NH,New Hampshire,2
+43,US-NJ,New Jersey,2
+44,US-NM,New Mexico,2
+45,US-NY,New York,2
+46,US-NC,North Carolina,2
+47,US-ND,North Dakota,2
+48,US-OH,Ohio,2
+49,US-OK,Oklahoma,2
+50,US-OR,Oregon,2
+51,US-PA,Pennsylvania,2
+52,US-RI,Rhode Island,2
+53,US-SC,South Carolin,2
+54,US-SD,South Dakota,2
+55,US-TN,Tennessee,2
+56,US-TX,Texas,2
+57,US-UT,Utah,2
+58,US-VT,Vermont,2
+59,US-VA,Virginia,2
+60,US-WA,Washington,2
+61,US-WV,West Virginia,2
+62,US-WI,Wisconsin,2
+63,US-WY,Wyoming,2
+64,MX-AGU,Aguascalientes,3
+65,MX-BCN,Baja California,3
+66,MX-BCS,Baja California Sur,3
+67,MX-CAM,Campeche,3
+68,MX-CHP,Chiapas,3
+69,MX-CHH,Chihuahua,3
+70,MX-COA,Coahuila de Zaragoza	Coahuila,3
+71,MX-COL,Colima,3
+72,MX-DUR,Durango,3
+73,MX-GUA,Guanajuato,3
+74,MX-GRO,Guerrero,3
+75,MX-HID,Hidalgo,3
+76,MX-JAL,Jalisco,3
+77,MX-MIC,Michoacán de Ocampo	Michoacán,3
+78,MX-MOR,Morelos,3
+79,MX-MEX,México,3
+80,MX-NAY,Nayarit,3
+81,MX-NLE,Nuevo León,3
+82,MX-OAX,Oaxaca,3
+83,MX-PUE,Puebla,3
+84,MX-QUE,Querétaro,3
+85,MX-ROO,Quintana Roo,3
+86,MX-SLP,San Luis Potosí,3
+87,MX-SIN,Sinaloa,3
+88,MX-SON,Sonora,3
+89,MX-TAB,Tabasco,3
+90,MX-TAM,Tamaulipas,3
+91,MX-TLA,Tlaxcala,4
+92,MX-VER,Veracruz,3
+93,MX-YUC,Yucatán,3
+94,MX-ZAC,Zacateca,3
+95,BZ-BZ,Belize,4
+96,BZ-CY,Cayo,4
+97,BZ-CZL,Corozal,4
+98,BZ-OW,Orange Walk,4
+99,BZ-SC,Stann Creek,4
+100,BZ-TOL,Toledo,4
+101,CR-A,Alajuela,5
+102,CR-C,Cartago,5
+103,CR-G,Guanacaste,5
+104,CR-H,Heredia,5
+105,CR-L,Limón,5
+106,CR-P,Puntarenas,5
+107,CR-SJ,San José,5
+109,SV-AH,Ahuachapán,6
+110,SV-CA,Cabañas,6
+111,SV-CH,Chalatenango,6
+112,SV-CU,Cuscatlá,6
+113,SV-LI,La Libertad,6
+114,SV-PA,La Paz,6
+115,SV-UN,La Unión,6
+116,SV-MO,Morazán,6
+117,SV-SM,San Miguel,6
+118,SV-SS,San Salvador,6
+119,SV-SV,San Vicente,6
+120,SV-SA,Santa Ana,6
+121,SV-SO,Sonsonate,6
+122,SV-US,Usulután,6
+123,GT-16,Alta Verapaz,7
+124,GT-15,Baja Verapaz,7
+125,GT-04,Chimaltenango,7
+126,GT-20,Chiquimula,7
+127,GT-02,El Progreso,7
+128,GT-05,Escuintla,7
+129,GT-01,Guatemala,7
+130,GT-13,Huehuetenango,7
+131,GT-18,Izabal,7
+132,GT-21,Jalapa,7
+133,GT-22,Jutiapa,7
+134,GT-17,Petén,7
+135,GT-09,Quetzaltenango,7
+136,GT-14,Quiché,7
+137,GT-11,Retalhuleu,7
+138,GT-03,Sacatepéquez,7
+139,GT-12,San Marcos,7
+140,GT-06,Santa Rosa,7
+141,GT-07,Sololá,7
+142,GT-10,Suchitepéquez,7
+143,GT-08,Totonicapán,7
+144,GT-19,Zacapa,7
+145,HN-AT,Atlántida,8
+146,HN-CH,Choluteca,8
+147,HN-CL,Colón,8
+148,HN-CM,Comayagua,8
+149,HN-CP,Copán,8
+150,HN-CR,Cortés,8
+151,HN-EP,El Paraíso,8
+152,HN-FM,Francisco Morazán,8
+153,HN-GD,Gracias a Dios,8
+154,HN-IN,Intibucá,8
+155,HN-IB,Islas de la Bahía,8
+156,HN-LP,La Paz,8
+157,HN-LE,Lempira,8
+158,HN-OC,Ocotepeque,8
+159,HN-OL,Olancho,8
+160,HN-SB,Santa Bárbara,8
+161,HN-VA,Valle,8
+162,HN-YO,Yoro,8
+163,NI-AN,Costa Caribe Norte,9
+164,NI-AS,Costa Caribe Sur,9
+165,NI-BO,Boaco,9
+166,NI-CA,Carazo,9
+167,NI-CI,Chinandega,9
+168,NI-CO,Chontales,9
+169,NI-ES,Estelí,9
+170,NI-GR,Granada,9
+171,NI-JI,Jinotega,9
+172,NI-LE,León,9
+173,NI-MD,Madriz,9
+174,NI-MN,Managua,9
+175,NI-MS,Masaya,9
+176,NI-MT,Matagalpa,9
+177,NI-NS,Nueva Segovia,9
+178,NI-RI,Rivas,9
+179,NI-SJ,Río San Juan,9
+180,PA-1,Bocas del Toro,10
+181,PA-4,Chiriquí,10
+182,PA-2,Coclé,10
+183,PA-3,Colón,10
+184,PA-5,Darién,10
+185,PA-EM,Emberá,10
+186,PA-KY,Guna Yala	Kuna Yala,10
+187,PA-6,Herrera,10
+188,PA-7,Los Santos,10
+189,PA-NT,Naso Tjër Di,10
+190,PA-NB,Ngäbe-Buglé,10
+191,PA-8,Panamá,10
+192,PA-10,Panamá Oeste,10
+193,PA-9,Veraguas,10
+194,AR-C,Ciudad Autónoma de Buenos Aires,11
+195,AR-B,Buenos Aires,11
+196,AR-K,Catamarca,11
+197,AR-H,Chaco,11
+198,AR-U,Chubut,11
+199,AR-W,Corrientes,11
+200,AR-X,Córdoba,11
+201,AR-E,Entre Ríos,11
+202,AR-P,Formosa,11
+203,AR-Y,Jujuy,11
+204,AR-L,La Pampa,11
+205,AR-F,La Rioja,11
+206,AR-M,Mendoza,11
+207,AR-N,Misiones,11
+208,AR-Q,Neuquén,11
+209,AR-R,Río Negro,11
+210,AR-A,Salta,11
+211,AR-J,San Juan,11
+212,AR-D,San Luis,11
+213,AR-Z,Santa Cruz,11
+214,AR-S,Santa Fe,11
+215,AR-G,Santiago del Estero,11
+216,AR-V,Tierra del Fuego,11
+217,BO-H,Chuquisaca,12
+218,BO-C,Cochabamba,12
+219,BO-B,El Beni,12
+220,BO-L,La Paz,12
+221,BO-O,Oruro,12
+222,BO-N,Pando,12
+223,BO-P,Potosí,12
+224,BO-S,Santa Cruz,12
+225,BO-T,Tarija,12
+226,BR-DF,Distrito Federal,13
+227,BR-AC,Acre,13
+228,BR-AL,Alagoas,13
+229,BR-AP,Amapá,13
+230,BR-AM,Amazonas,13
+231,BR-BA,Bahia,13
+232,BR-CE,Ceará,13
+233,BR-ES,Espírito Santo,13
+234,BR-GO,Goiás,13
+235,BR-MA,Maranhão,13
+236,BR-MT,Mato Grosso,13
+237,BR-MS,Mato Grosso do Sul,13
+238,BR-MG,Minas Gerais,13
+239,BR-PR,Paraná,13
+240,BR-PB,Paraíba,13
+241,BR-PA,Pará,13
+242,BR-PE,Pernambuco,13
+243,BR-PI,Piauí,13
+244,BR-RN,Rio Grande do Norte,13
+245,BR-RS,Rio Grande do Sul,13
+246,BR-RJ,Rio de Janeiro,13
+247,BR-RO,Rondônia,13
+248,BR-RR,Roraima,13
+249,BR-SC,Santa Catarina,13
+250,BR-SE,Sergipe,13
+251,BR-SP,São Paulo,13
+252,BR-TO,Tocantins,13
+253,CL-AI,Aisén del General Carlos Ibañez del Campo	Aysén,14
+254,CL-AN,Antofagasta,14
+255,CL-AP,Arica y Parinacota,14
+256,CL-AT,Atacama,14
+257,CL-BI,Biobío,14
+258,CL-CO,Coquimbo,14
+259,CL-AR,La Araucanía,14
+260,CL-LI,Libertador General Bernardo O'Higgins	O'Higgins,14
+261,CL-LL,Los Lagos,14
+262,CL-LR,Los Ríos,14
+263,CL-MA,Magallanes,14
+264,CL-ML,Maule,14
+265,CL-RM,Región Metropolitana de Santiago,14
+266,CL-TA,Tarapacá,14
+267,CL-VS,Valparaíso,14
+268,CL-NB,Ñuble,14
+269,CO-DC,Distrito Capital de Bogotá,15
+270,CO-AMA,Amazonas,15
+271,CO-ANT,Antioquia,15
+272,CO-ARA,Arauca,15
+273,CO-ATL,Atlántico,15
+274,CO-BOL,Bolívar,15
+275,CO-BOY,Boyacá,15
+276,CO-CAL,Caldas,15
+277,CO-CAQ,Caquetá,15
+278,CO-CAS,Casanare,15
+279,CO-CAU,Cauca,15
+280,CO-CES,Cesar,15
+281,CO-CHO,Chocó,15
+282,CO-CUN,Cundinamarca,15
+283,CO-COR,Córdoba,15
+284,CO-GUA,Guainía,15
+285,CO-GUV,Guaviare,15
+286,CO-HUI,Huila,15
+287,CO-LAG,La Guajira,15
+288,CO-MAG,Magdalena,15
+289,CO-MET,Meta,15
+290,CO-NAR,Nariño,15
+291,CO-NSA,Norte de Santander,15
+292,CO-PUT,Putumayo,15
+293,CO-QUI,Quindío,15
+294,CO-RIS,Risaralda,15
+295,CO-SAP,San Andrés,15
+296,CO-SAN,Santander,15
+297,CO-SUC,Sucre,15
+298,CO-TOL,Tolima,15
+299,CO-VAC,Valle del Cauca,15
+300,CO-VAU,Vaupés,15
+301,CO-VID,Vichada,15
+302,EC-A,Azuay,16
+303,EC-B,Bolívar,16
+304,EC-C,Carchi,16
+305,EC-F,Cañar,16
+306,EC-H,Chimborazo,16
+307,EC-X,Cotopaxi,16
+308,EC-O,El Oro,16
+309,EC-E,Esmeraldas,16
+310,EC-W,Galápagos,16
+311,EC-G,Guayas,16
+312,EC-I,Imbabura,16
+313,EC-L,Loja,16
+314,EC-R,Los Ríos,16
+315,EC-M,Manabí,16
+316,EC-S,Morona Santiago,16
+317,EC-N,Napo,16
+318,EC-D,Orellana,16
+319,EC-Y,Pastaza,16
+320,EC-P,Pichincha,16
+321,EC-SE,Santa Elena,16
+322,EC-SD,Santo Domingo de los Tsáchilas,16
+323,EC-U,Sucumbíos,16
+324,EC-T,Tungurahua,16
+325,EC-Z,Zamora Chinchipe,16
+326,UY-AR,Artigas,17
+327,UY-CA,Canelones,17
+328,UY-CL,Cerro Largo,17
+329,UY-CO,Colonia,17
+330,UY-DU,Durazno,17
+331,UY-FS,Flores,17
+332,UY-FD,Florida,17
+333,UY-LA,Lavalleja,17
+334,UY-MA,Maldonado,17
+335,UY-MO,Montevideo,17
+336,UY-PA,Paysandú,17
+337,UY-RV,Rivera,17
+338,UY-RO,Rocha,17
+339,UY-RN,Río Negro,17
+340,UY-SA,Salto,17
+341,UY-SJ,San José,17
+342,UY-SO,Soriano,17
+343,UY-TA,Tacuarembó,17
+344,UY-TT,Treinta y Tres,17
+345,VE-A,Distrito Capital,18
+346,VE-W,Dependencias Federales,18
+347,VE-Z,Amazonas,18
+348,VE-B,Anzoátegui,18
+349,VE-C,Apure,18
+350,VE-D,Aragua,18
+351,VE-E,Barinas,18
+352,VE-F,Bolívar,18
+353,VE-G,Carabobo,18
+354,VE-H,Cojedes,18
+355,VE-Y,Delta Amacuro,18
+356,VE-I,Falcón,18
+357,VE-J,Guárico,18
+358,VE-X,La Guaira,18
+359,VE-K,Lara,18
+360,VE-M,Miranda,18
+361,VE-N,Monagas,18
+362,VE-L,Mérida,18
+363,VE-O,Nueva Esparta,18
+364,VE-P,Portuguesa,18
+365,VE-R,Sucre,18
+366,VE-T,Trujillo,18
+367,VE-S,Táchira,18
+368,VE-U,Yaracuy,18
+369,VE-V,Zulia,18
+370,DO-33,Cibao Nordeste,20
+371,DO-34,Cibao Noroeste,20
+372,DO-35,Cibao Norte,20
+373,DO-36,Cibao Sur,20
+374,DO-37,El Valle,20
+375,DO-38,Enriquillo,20
+376,DO-39,Higuamo,20
+377,DO-40,Ozama,20
+378,DO-41,Valdesia,20
+379,DO-42,Yuma,20	
+380,DO-02,Azua,20
+381,DO-03,Baoruco,20
+382,DO-04,Barahona,20
+383,DO-05,Dajabón,20
+384,DO-06,Duarte,20
+385,DO-08,El Seibo,20
+386,DO-07,Elías Piña,20
+387,DO-09,Espaillat,20
+388,DO-30,Hato Mayor,20
+389,DO-19,Hermanas Mirabal,20
+390,DO-10,Independencia,20
+391,DO-11,La Altagracia,20
+392,DO-12,La Romana,20
+393,DO-13,La Vega,20
+394,DO-14,María Trinidad Sánchez,20
+395,DO-28,Monseñor Nouel,20
+396,DO-15,Monte Cristi,20
+397,DO-29,Monte Plata,20
+398,DO-16,Pedernales,20
+399,DO-17,Peravia,20
+400,DO-18,Puerto Plata,20
+401,DO-20,Samaná,20
+402,DO-21,San Cristóbal,20
+403,DO-31,San José de Ocoa,20
+404,DO-22,San Juan,20
+405,DO-23,San Pedro de Macorís,20
+406,DO-25,Santiago,20
+407,DO-26,Santiago Rodríguez,20
+408,DO-32,	Santo Domingo,20
+409,DO-24,Sánchez Ramírez,20
+410,DO-27,Valverde,20
+411,DO-01,Distrito Nacional (Santo Domingo),20
+412,,Distrito Senatorial de San Juan,19
+413,,Distrito Senatorial de Ponce,19
+414,,Distrito Senatorial de Humacao,19
+415,,Distrito Senatorial de Bayamón,19
+416,,Distrito Senatorial de Guayama,19
+417,,Distrito Senatorial de Carolina,19
+418,,Distrito Senatorial de Arecibo,12
+419,,Distrito Senatorial de Aguadilla3 Mayagüez,19
+420,AR-T,Tucumán,11

@@ -1,0 +1,32 @@
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
+# Environment variables
+
+WORKDIR /src
+COPY ["src/NetForemost.API/NetForemost.API.csproj", "src/NetForemost.API/"]
+COPY ["src/NetForemost.Infrastructure.Migration/NetForemost.Infrastructure.Migrations.csproj", "src/NetForemost.Infrastructure.Migration/"]
+COPY ["src/NetForemost.Infrastructure/NetForemost.Infrastructure.csproj", "src/NetForemost.Infrastructure/"]
+COPY ["src/NetForemost.Core/NetForemost.Core.csproj", "src/NetForemost.Core/"]
+COPY ["src/NetForemost.SharedKernel/NetForemost.SharedKernel.csproj", "src/NetForemost.SharedKernel/"]
+COPY ["src/NetForemost.Infrastructure.Importer/NetForemost.Infrastructure.Importer.csproj", "src/NetForemost.Infrastructure.Importer/"]
+RUN dotnet restore "src/NetForemost.API/NetForemost.API.csproj"
+COPY . .
+WORKDIR "/src/src/NetForemost.API"
+RUN dotnet build "NetForemost.API.csproj" -c Release -o /app/build
+FROM build AS publish
+RUN dotnet publish "NetForemost.API.csproj" -c Release -o /app/publish
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+
+#Datadog
+COPY --from=datadog/serverless-init:1 /datadog-init /app/datadog-init
+COPY --from=datadog/dd-lib-dotnet-init /datadog-init/monitoring-home/ /dd_tracer/dotnet/
+
+
+CMD ["/app/datadog-init", "dotnet", "NetForemost.API.dll"]

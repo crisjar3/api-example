@@ -1,0 +1,26 @@
+Id,Offset,Text
+1,0,(UTC) Europe/London
+2,-1,(UTC-1:00) America/Scoresbysund
+3,-2,(UTC-2:00) America/Noronha
+4,-3,(UTC-3:00) America/Argentina/Buenos Aires
+5,-4,(UTC-4:00) America/Puerto Rico
+6,-5,(UTC-5:00) America/Panama
+7,-6,(UTC-6:00) America/Managua
+8,-7,(UTC-7:00) America/Cambridge_Bay
+9,-8,(UTC-8:00) America/Vancouver
+10,-9,(UTC-9:00) America/Juneau
+11,-10,(UTC-10:00) America/Adak
+12,-11,(UTC-11:00) Pacific/Midway
+13,-12,(UTC-12:00)
+14,1,(UTC+1:00) Europe/Madrid
+15,2,(UTC+2:00) Europe/Kyiv
+16,3,(UTC+3:00) Africa/Kampala
+17,4,(UTC+4:00) Europe/Astrakhan
+18,5,(UTC+5:00) Asia/Karachi
+19,6,(UTC+6:00) Asia/Urumqi
+20,7,(UTC+7:00) Asia/Novokuznetsk
+21,8,(UTC+8:00) Asia/Shanghai
+22,9,(UTC+9:00) Asia/Khandyga
+23,10,(UTC+10:00) Australia/Lindeman
+24,11,(UTC+11:00) Australia/Sydney
+25,12,(UTC+12:00) Pacific/Fiji

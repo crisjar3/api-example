@@ -1,0 +1,32 @@
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY ["src/NetForemost.Reports.API/NetForemost.Reports.API.csproj", "src/NetForemost.Reports.API/"]
+COPY ["src/NetForemost.Infrastructure.Migration/NetForemost.Infrastructure.Migrations.csproj", "src/NetForemost.Infrastructure.Migration/"]
+COPY ["src/NetForemost.Infrastructure/NetForemost.Infrastructure.csproj", "src/NetForemost.Infrastructure/"]
+COPY ["src/NetForemost.Core/NetForemost.Core.csproj", "src/NetForemost.Core/"]
+COPY ["src/NetForemost.SharedKernel/NetForemost.SharedKernel.csproj", "src/NetForemost.SharedKernel/"]
+COPY ["src/NetForemost.Infrastructure.Importer/NetForemost.Infrastructure.Importer.csproj", "src/NetForemost.Infrastructure.Importer/"]
+RUN dotnet restore "src/NetForemost.Reports.API/NetForemost.Reports.API.csproj"
+COPY . .
+WORKDIR "/src/src/NetForemost.Reports.API"
+RUN dotnet build "NetForemost.Reports.API.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "NetForemost.Reports.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+
+#Datadog
+COPY --from=datadog/serverless-init:1 /datadog-init /app/datadog-init
+COPY --from=datadog/dd-lib-dotnet-init /datadog-init/monitoring-home/ /dd_tracer/dotnet/
+
+CMD ["/app/datadog-init", "dotnet", "NetForemost.Reports.API.dll"]

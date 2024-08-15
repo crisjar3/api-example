@@ -1,0 +1,11 @@
+Id,KnowledgeLevel,Dependencies,WorkEffort,Points
+1,Unknown,Unknown,Half a day,1
+2,Unknown,Unknown,A Day,2
+3,Unknown,Unknown,A day and a half,3
+4,Unknown,Unknown,Two Days,4
+5,Unknown,Unknown, Two Days and a Half,5
+6,Unknown,Unknown,Three Days,6
+7,Unknown,Unknown,Three Days a half,7
+8,Unknown,Unknown, Four Days,8
+9,Unknown,Unknown,More that a Four Days,9
+
